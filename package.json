@@ -24,7 +24,8 @@
   "homepage": "https://github.com/jeffreymcfarland/react_portfolio#readme",
   "dependencies": {
     "express": "^4.17.1",
-    "if-env": "^1.0.4"
+    "if-env": "^1.0.4",
+    "jquery": "^3.5.1"
   },
   "devDependencies": {
     "concurrently": "^5.2.0",
