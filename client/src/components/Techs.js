@@ -1,6 +1,13 @@
-import React from 'react';
+import React, { useState } from 'react';
+import TechImage from './TechImage';
+import images1 from './tech-images1.json';
+import images2 from './tech-images2.json';
+
 
 function Techs() {
+
+    const [techs1, setTechs1] = useState(images1);
+    const [techs2, setTechs2] = useState(images2);
 
     return(
 
@@ -14,20 +21,14 @@ function Techs() {
             <div className='row mb-5'>
                     
                 <div className='col-md-6 d-flex justify-content-around ml-1 mr-n3'>
-                    <img className='skills m-1 tooltipped' data-position='top' data-tooltip='HTML' src='assets/images/HTML-img.png' alt='html'/>
-                    <img className='skills m-1 tooltipped' data-position='top' data-tooltip='CSS' src='assets/images/CSS-img.png' alt='css'/>
-                    <img className='skills m-1 tooltipped' data-position='top' data-tooltip='JavaScript' src='assets/images/JS-img.png' alt='javascript'/>
-                    <img className='skills m-1 tooltipped' data-position='top' data-tooltip='jQuery' src='assets/images/jquery-img.png' alt='jquery'/>
-                    <img className='skills m-1 tooltipped' data-position='top' data-tooltip='Bootstrap' src='assets/images/BS-img.png' alt='bootstrap'/>
-                    <img className='skills m-1 tooltipped' data-position='top' data-tooltip='Materialize' src='assets/images/material-img.png' alt='material'/>
+                    {techs1.map(image => (
+                        <TechImage src={image.link}/>
+                    ))}
                 </div>
                 <div className='col-md-6 d-flex justify-content-around'>
-                    <img className='skills m-1 tooltipped' data-position='top' data-tooltip='NodeJS' src='assets/images/node-img.png' alt='node'/>
-                    <img className='skills m-1 tooltipped' data-position='top' data-tooltip='SQL' src='assets/images/sql.png' alt='sql'/>
-                    <img className='skills m-1 tooltipped' data-position='top' data-tooltip='MongoDB' src='assets/images/mongodb.png' alt='mongodb'/>
-                    <img className='skills m-1 tooltipped' data-position='top' data-tooltip='Postman' src='assets/images/postman.png' alt='postman'/>
-                    <img className='skills m-1 tooltipped' data-position='top' data-tooltip='Github' src='assets/images/github-img.png' alt='github'/>
-                    <img className='skills m-1 tooltipped' data-position='top' data-tooltip='Terminal' src='assets/images/terminal-img.png' alt='terminal'/>
+                    {techs2.map(image => (
+                        <TechImage src={image.link}/>
+                    ))}
                 </div>
 
             </div>
