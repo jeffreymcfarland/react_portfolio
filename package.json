@@ -11,8 +11,8 @@
     "install": "cd client && npm install",
     "build": "cd client && npm run build",
     "heroku-postbuild": "npm run build",
-    "predeploy": "npm run build",
-    "deploy": "gh-pages -d build"
+    "predeploy": "cd client && npm run predeploy",
+    "deploy": "cd client && npm run deploy"
   },
   "repository": {
     "type": "git",
@@ -23,7 +23,7 @@
   "bugs": {
     "url": "https://github.com/jeffreymcfarland/react_portfolio/issues"
   },
-  "homepage": "http://jeffreymcfarland.github.io/react_portfolio",
+  "homepage": "https://github.com/jeffreymcfarland/react_portfolio#readme",
   "dependencies": {
     "express": "^4.17.1",
     "if-env": "^1.0.4",
