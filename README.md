@@ -18,8 +18,13 @@ This is my same portfolio built as a React app with a server connection as well.
 ![badge](https://img.shields.io/badge/License-MIT-success)
 
 ***
-## Screenshots
+## Previews
 
+<kbd><img src="client/public/assets/images/portfolio-screenshot.png" alt="portfolio screenshot"></kdb>
+
+***
+
+![gif](client/public/assets/gif/portfolio.gif)
 
 ***
 ## Languages & Technologies
