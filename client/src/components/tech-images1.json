@@ -1,20 +1,34 @@
 [
     {
-        "link": "assets/images/HTML-img.png"
+        "link": "assets/images/react.png",
+        "tooltip": "React"
     },
     {
-        "link": "assets/images/CSS-img.png"
+        "link": "assets/images/HTML-img.png",
+        "tooltip": "HTML"
     },
     {
-        "link": "assets/images/JS-img.png"
+        "link": "assets/images/CSS-img.png",
+        "tooltip": "CSS"
     },
     {
-        "link": "assets/images/jquery-img.png"
+        "link": "assets/images/JS-img.png",
+        "tooltip": "JavaScript"
     },
     {
-        "link": "assets/images/BS-img.png"
+        "link": "assets/images/jquery-img.png",
+        "tooltip": "JQuery"
     },
     {
-        "link": "assets/images/material-img.png"
+        "link": "assets/images/BS-img.png",
+        "tooltip": "Bootstrap"
+    },
+    {
+        "link": "assets/images/material-img.png",
+        "tooltip": "Materialize"
+    },
+    {
+        "link": "assets/images/node-img.png",
+        "tooltip": "Node"
     }
 ]

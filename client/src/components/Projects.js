@@ -1,6 +1,10 @@
-import React from 'react';
+import React, { useState } from 'react';
+import ProjectCard from './ProjectCard';
+import Cards from './card-info.json';
 
 function Projects() {
+
+    const [cardInfo, setCardInfo] = useState(Cards);
 
     return(
 
@@ -13,84 +17,58 @@ function Projects() {
             
             <div className='row'>
 
-                <div className='col-md-6 d-flex justify-content-center mb-4'>
-                    <figure className='imghvr-shutter-in-out-diag-2 project-img rounded-lg border border-white gotu'>
-                        <img className='img-sizing' src='assets/images/desktop-screenshot.png' alt='Cocktail app'/>
-                        <figcaption>
-                            <h5>Shaken or Stirred</h5>
-                            <p>Express app for creating a list of cocktails you want to try and ones you've already tried.</p>
-                            <span className='links'><a href='https://shaken-or-stirred.herokuapp.com/' target='_blank' rel='noopener noreferrer'>View Project</a></span>
-                            <span>•••</span>
-                            <span className='links'><a href='https://github.com/jeffreymcfarland/cocktail_app' target='_blank' rel='noopener noreferrer'>View Code</a></span>
-                        </figcaption>
-                    </figure>
-                </div>
-                <div className='col-md-6 d-flex justify-content-center mb-4'>
-                    <figure className='imghvr-shutter-in-out-diag-2 project-img rounded-lg border border-white gotu'>
-                        <img className='img-sizing' src='assets/images/hows-it-growing.png' alt='Plant app'/>
-                        <figcaption>
-                            <h5>How's It Growing?</h5>
-                            <p>Express app for keeping a watering schedule for the plants in your house.</p>
-                            <span className='links'><a href='https://hows-it-growing.herokuapp.com/' target='_blank' rel='noopener noreferrer'>View Project</a></span>
-                            <span>•••</span>
-                            <span className='links'><a href='https://github.com/jeffreymcfarland/Hows_It_Growing' target='_blank' rel='noopener noreferrer'>View Code</a></span>
-                        </figcaption>
-                    </figure>
-                </div>
+                <ProjectCard 
+                src={cardInfo[0].src} 
+                alt={cardInfo[0].alt} 
+                title={cardInfo[0].title} 
+                desc={cardInfo[0].desc} 
+                proj={cardInfo[0].proj}
+                code={cardInfo[0].code}
+                />
+                <ProjectCard 
+                src={cardInfo[1].src} 
+                alt={cardInfo[1].alt} 
+                title={cardInfo[1].title} 
+                desc={cardInfo[1].desc} 
+                proj={cardInfo[1].proj}
+                code={cardInfo[1].code}
+                />           
             </div>
             <div className='row'>
-                
-                <div className='col-md-6 d-flex justify-content-center mb-4'>
-                    <figure className='imghvr-shutter-in-out-diag-2 project-img rounded-lg border border-white gotu'>
-                        <img className='img-sizing' src='assets/images/todo-app.png' alt='Note app'/>
-                        <figcaption>
-                            <h5>Note Taker</h5>
-                            <p>A note taking application built with Express and Node.</p>
-                            <span className='links'><a href='https://jm-notetaker.herokuapp.com/' target='_blank' rel='noopener noreferrer'>View Project</a></span>
-                            <span>•••</span>
-                            <span className='links'><a href='https://github.com/jeffreymcfarland/note_taker' target='_blank' rel='noopener noreferrer'>View Code</a></span>
-                        </figcaption>
-                    </figure>
-                </div>
-                <div className='col-md-6 d-flex justify-content-center mb-4'>
-                    <figure className='imghvr-shutter-in-out-diag-2 project-img rounded-lg border border-white gotu'>
-                        <img className='img-sizing' src='assets/images/weather-app.png' alt='Weather app'/>
-                        <figcaption>
-                            <h5>How's the Weather?</h5>
-                            <p>Weather searching app that uses an API search to find current and future forecasts of searched cities.</p>                            
-                            <span className='links'><a href='https://jeffreymcfarland.github.io/weather_app/' target='_blank' rel='noopener noreferrer'>View Project</a></span>
-                            <span>•••</span>
-                            <span className='links'><a href='https://github.com/jeffreymcfarland/weather_app' target='_blank' rel='noopener noreferrer'>View Code</a></span>                         
-                        </figcaption>
-                    </figure>
-                </div>
+                <ProjectCard 
+                src={cardInfo[2].src} 
+                alt={cardInfo[2].alt} 
+                title={cardInfo[2].title} 
+                desc={cardInfo[2].desc} 
+                proj={cardInfo[2].proj}
+                code={cardInfo[2].code}
+                />
+                <ProjectCard 
+                src={cardInfo[3].src} 
+                alt={cardInfo[3].alt} 
+                title={cardInfo[3].title} 
+                desc={cardInfo[3].desc} 
+                proj={cardInfo[3].proj}
+                code={cardInfo[3].code}
+                />               
             </div>
             <div className='row'>
-                
-                <div className='col-md-6 d-flex justify-content-center mb-4'>
-                    <figure className='imghvr-shutter-in-out-diag-2 project-img rounded-lg border border-white gotu'>
-                        <img className='img-sizing' src='assets/images/planner-app.png' alt='Planner app'/>
-                        <figcaption>
-                            <h5>Work Day Planner</h5>
-                            <p>Simple planner application using moment.js to dynamically add features based off the time of day.</p>
-                            <span className='links'><a href='https://jeffreymcfarland.github.io/daily_planner/' target='_blank' rel='noopener noreferrer'>View Project</a></span>
-                            <span>•••</span>
-                            <span className='links'><a href='https://github.com/jeffreymcfarland/daily_planner' target='_blank' rel='noopener noreferrer'>View Code</a></span>
-                        </figcaption>
-                    </figure>
-                </div>
-                <div className='col-md-6 d-flex justify-content-center mb-4'>
-                    <figure className='imghvr-shutter-in-out-diag-2 project-img rounded-lg border border-white gotu'>
-                        <img className='img-sizing' src='assets/images/recipe-app.png' alt='recipe app'/>
-                        <figcaption>
-                            <h5>J's Cookbook</h5>
-                            <p>Application for finding recipes based off ingredients you already have in your house.</p>                            
-                            <span className='links'><a href='https://jeffreymcfarland.github.io/js-cookbook/index.html' target='_blank' rel='noopener noreferrer'>View Project</a></span>
-                            <span>•••</span>
-                            <span className='links'><a href='https://github.com/jeffreymcfarland/js-cookbook' target='_blank' rel='noopener noreferrer'>View Code</a></span>                         
-                        </figcaption>
-                    </figure>
-                </div>
+                <ProjectCard 
+                src={cardInfo[4].src} 
+                alt={cardInfo[4].alt} 
+                title={cardInfo[4].title} 
+                desc={cardInfo[4].desc} 
+                proj={cardInfo[4].proj}
+                code={cardInfo[4].code}
+                />         
+                <ProjectCard 
+                src={cardInfo[5].src} 
+                alt={cardInfo[5].alt} 
+                title={cardInfo[5].title} 
+                desc={cardInfo[5].desc} 
+                proj={cardInfo[5].proj}
+                code={cardInfo[5].code}
+                />         
             </div>
         </div>
     </div>

@@ -1,0 +1,50 @@
+[
+    {
+        "src": "assets/images/desktop-screenshot.png",
+        "alt": "Cocktail app",
+        "title": "Shaken or Stirred",
+        "desc": "Express app for creating a list of cocktails you want to try and ones you've already tried.",
+        "proj": "https://shaken-or-stirred.herokuapp.com/",
+        "code": "https://github.com/jeffreymcfarland/cocktail_app"
+    },
+    {
+        "src": "assets/images/hows-it-growing.png",
+        "alt": "Note app",
+        "title": "Note Taker",
+        "desc": "A note taking application built with Express and Node.",
+        "proj": "https://jm-notetaker.herokuapp.com/",
+        "code": "https://github.com/jeffreymcfarland/note_taker"
+    },
+    {
+        "src": "assets/images/todo-app.png",
+        "alt": "Plant app",
+        "title": "How's It Growing?",
+        "desc": "Express app for keeping a watering schedule for the plants in your house.",
+        "proj": "https://hows-it-growing.herokuapp.com/",
+        "code": "https://github.com/jeffreymcfarland/Hows_It_Growing"
+    },
+    {
+        "src": "assets/images/weather-app.png",
+        "alt": "Weather app",
+        "title": "How's the Weather?",
+        "desc": "Weather searching app that uses an API search to find current and future forecasts of searched cities.",
+        "proj": "https://jeffreymcfarland.github.io/weather_app/",
+        "code": "https://github.com/jeffreymcfarland/weather_app"
+    },
+    {
+        "src": "assets/images/planner-app.png",
+        "alt": "Planner app",
+        "title": "Work Day Planner",
+        "desc": "Simple planner application using moment.js to dynamically add features based off the time of day.",
+        "proj": "https://jeffreymcfarland.github.io/daily_planner/",
+        "code": "https://github.com/jeffreymcfarland/daily_planner"
+    },
+    {
+        "src": "assets/images/recipe-app.png",
+        "alt": "Recipe app",
+        "title": "J's Cookbook",
+        "desc": "Application for finding recipes based off ingredients you already have in your house.",
+        "proj": "https://jeffreymcfarland.github.io/js-cookbook/index.html",
+        "code": "https://github.com/jeffreymcfarland/js-cookbook"
+    }
+]

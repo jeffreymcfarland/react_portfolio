@@ -12,7 +12,6 @@ function Techs() {
     return(
 
     <div>
-        {/* <div className='container-fluid px-0'> */}
 
             <div className='section-title row d-flex justify-content-center text-center gotu m-5'>
                 <h4>Languages and Tools</h4>
@@ -22,17 +21,17 @@ function Techs() {
                     
                 <div className='col-md-6 d-flex justify-content-around ml-1 mr-n3'>
                     {techs1.map(image => (
-                        <TechImage src={image.link}/>
+                        <TechImage src={image.link} tooltip={image.tooltip}/>
                     ))}
                 </div>
                 <div className='col-md-6 d-flex justify-content-around'>
                     {techs2.map(image => (
-                        <TechImage src={image.link}/>
+                        <TechImage src={image.link} tooltip={image.tooltip}/>
                     ))}
                 </div>
 
             </div>
-        {/* </div>      */}
+            
     </div>
 
 

@@ -1,20 +1,34 @@
 [
     {
-        "link": "assets/images/node-img.png"
+        "link": "assets/images/express.png",
+        "tooltip": "Express"
     },
     {
-        "link": "assets/images/sql.png"
+        "link": "assets/images/sql.png",
+        "tooltip": "SQL"
     },
     {
-        "link": "assets/images/mongodb.png"
+        "link": "assets/images/sequelize.png",
+        "tooltip": "Sequelize"
     },
     {
-        "link": "assets/images/postman.png"
+        "link": "assets/images/mongodb.png",
+        "tooltip": "MongoDB"
     },
     {
-        "link": "assets/images/github-img.png"
+        "link": "assets/images/mongoose.png",
+        "tooltip": "Mongoose"
     },
     {
-        "link": "assets/images/terminal-img.png"
+        "link": "assets/images/postman.png",
+        "tooltip": "Postman"
+    },
+    {
+        "link": "assets/images/github-img.png",
+        "tooltip": "Github"
+    },
+    {
+        "link": "assets/images/terminal-img.png",
+        "tooltip": "Terminal"
     }
 ]
