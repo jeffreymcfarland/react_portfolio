@@ -40,11 +40,11 @@
         "code": "https://github.com/jeffreymcfarland/daily_planner"
     },
     {
-        "src": "assets/images/recipe-app.png",
-        "alt": "Recipe app",
-        "title": "J's Cookbook",
-        "desc": "Application for finding recipes based off ingredients you already have in your house.",
-        "proj": "https://jeffreymcfarland.github.io/js-cookbook/index.html",
-        "code": "https://github.com/jeffreymcfarland/js-cookbook"
+        "src": "assets/images/booksearch-app.png",
+        "alt": "Book Search app",
+        "title": "Google Book Search",
+        "desc": "React/Express book search app using Google Books API",
+        "proj": "https://jm-booksearch.herokuapp.com/",
+        "code": "https://github.com/jeffreymcfarland/book_search"
     }
 ]
